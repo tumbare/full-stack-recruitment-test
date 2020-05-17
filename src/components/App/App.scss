@@ -4,4 +4,44 @@
   &__main {
     padding: $bpk-spacing-sm;
   }
+
+  &__time-block {
+    display: flex;
+    padding: $bpk-spacing-sm;
+    align-items: stretch;
+  }
+
+  &__flight-logo {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__flight-time {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__duration {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__price {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__green {
+    color: #1d8348;
+  }
+
+  &__red {
+    color: #ff0000;
+  }
 }

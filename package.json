@@ -20,6 +20,12 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "backpack-react-scripts": "^7.0.2",
+    "bpk-component-button": "^3.2.25",
+    "bpk-component-card": "^2.0.46",
+    "bpk-component-fieldset": "^2.0.48",
+    "bpk-component-grid": "^2.0.46",
+    "bpk-component-icon": "^5.0.47",
+    "bpk-component-image": "^4.0.3",
     "bpk-component-text": "^2.0.21",
     "bpk-mixins": "^19.0.21",
     "bpk-stylesheets": "^4.1.2",
@@ -37,5 +43,20 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyscanner/full-stack-recruitment-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skyscanner/full-stack-recruitment-test/issues"
+  },
+  "homepage": "https://github.com/Skyscanner/full-stack-recruitment-test#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react-moment": "^0.9.7"
+  }
 }
